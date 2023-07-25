@@ -8,5 +8,6 @@ opencv_python
 python_bcrypt
 scikit_image
 scipy
+tensorflow
 tensorflow_gpu
 Werkzeug
