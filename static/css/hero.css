@@ -79,6 +79,9 @@
   .hero-bg-bg {
     height: 80vh;
   }
+  .hero-bg {
+    height: 90%;
+  }
 
   .subheading {
     font-family: "Roboto", sans-serif;
