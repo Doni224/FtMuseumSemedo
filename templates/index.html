@@ -102,7 +102,7 @@
                 msg: rawText,
               },
               type: "POST",
-              url: "http://127.0.0.1:5001/get",
+              url: "https://backendvasemodo.onrender.com/get",
             }).done(function (data) {
               var botHtml = '<div class="income-msg">' +'<img src="/static/img/edo.png" class="avatar"  style="height: 70px;">'  + '<span class="msg1">' + data + '</span>' + '</div>';
               $("#msg-bubble").append($.parseHTML(botHtml));
