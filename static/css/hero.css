@@ -72,11 +72,10 @@
   color: #fff;
 }
 
-@media only screen and (max-width: 480px) {
-  /* .hero-title {
-    font-size: 54px;
-    
-  } */
+@media only screen and (max-width: 400px) {
+  .hero {
+    height: 90vh;
+  }
   .hero-bg-bg {
     height: 10vh;
   }
