@@ -1,13 +1,6 @@
 Flask
 Flask_Cors
 Flask_MySQLdb
-keras
-nltk
-numpy
-opencv_python
 python_bcrypt
-scikit_image
-scipy
-tensorflow
 Werkzeug
 gunicorn
