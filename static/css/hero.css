@@ -80,7 +80,7 @@
     height: 99vh;
   }
   .hero-bg {
-    height: 99%;
+    height: auto;
   }
 
   .subheading {
