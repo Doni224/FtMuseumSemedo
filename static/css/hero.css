@@ -102,19 +102,17 @@
     left: 0;
     z-index: -9999;
     width: 105%;
-    height: 120%;
+    height: 140%;
   }
 
   .hero-bg-bg {
     width: 10%;
-    height: 70vh;
+    height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
     z-index: -9998;
-    width: 135%;
-    height: 70%;
   }
 
   .hero-mb {
