@@ -95,18 +95,26 @@
 
 @media only screen and (max-width: 768px) {
   .hero {
-    height: 130vh;
+    height: 110vh;
   }
   .hero-bg {
     top: 0;
     left: 0;
     z-index: -9999;
     width: 105%;
-    height: 90%;
+    height: 100%;
   }
 
   .hero-bg-bg {
-    height: 100vh;
+    width: 10%;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9998;
+    width: 135%;
+    height: 70%;
   }
 
   .hero-mb {
