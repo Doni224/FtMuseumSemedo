@@ -1,0 +1,67 @@
+<head>
+    <style>
+        .about{
+            margin-top: 10%;
+            background: #f5f6f8;
+            height: 90vh;
+        }
+      
+        .ini-gambar img{
+            border-radius: 40px;
+            width: 70%;
+        }
+        .about-jrk{
+            padding-top: 80px;
+        }
+        .jrk-heading{
+            background-color: #fff;
+            border-radius: 20px;
+        }
+        .jrk-heading h2{
+            padding-top: 20px;
+            font-family: 'Lato',sans-serif;
+            font-style: normal;
+            text-align: center;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+        }
+        @media only screen and (max-width: 768px) {
+            .about{
+            height: 50vh;
+        }
+        .ini-gambar img{
+            border-radius: 40px;
+            width: 75%;
+            margin-left: 40px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div data-aos="fade-up" class="about" id="About">
+        <div class="container">
+            <!-- <div class="heading-1" style="text-align: center;">
+                <h2>Tentang Kami</h2>
+            </div> -->
+            <div class="row about-jrk">
+                <div class="col-md-5">
+                    <div class="ini-gambar">
+                        <img src="../static/img/semedo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-7 headin jrk-heading"> 
+                    <h2 class="">Visi Museum Semedo </h2>
+                    <div class="sub-heading">
+                        {% for k in kk %}
+                        <p>{{k.visi}}</p>
+    
+                            {% endfor %}
+                   </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
