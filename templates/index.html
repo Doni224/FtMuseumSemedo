@@ -104,7 +104,8 @@
               type: "POST",
               url: "https://backendvasemodo.onrender.com/get",
             }).done(function (data) {
-              var botHtml = '<div class="income-msg">' +'<img src="/static/img/edo.png" class="avatar"  style="height: 70px;">'  + '<span class="msg1">' + data + '</span>' + '</div>';
+              var botHtml = '<div class="income-msg">' +'<img src="/static/img/edo.png" class="avatar"  style="height: 70px;">'
+                  + '<span class="msg1">' + data + '</span>' +   '<p>' + data + '</p>' + '</div>';
               $("#msg-bubble").append($.parseHTML(botHtml));
               document.getElementById("userInput").scrollIntoView({
                 block: "start",
